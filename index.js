@@ -1,4 +1,5 @@
-require("dotenv").config();
+equire("dotenv").config({ path: __dirname + `/.env`});
+
 var mqtt = require("mqtt");
 
 const winston = require("winston");
